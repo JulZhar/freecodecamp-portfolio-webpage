@@ -8,7 +8,12 @@
   /* main */
   --top-social-icon-color: var(--light-text-color);
   --bottom-social-icon-color: #623a79;
-  --main-gradient: linear-gradient(45deg, rgba(0,30,36,1) 0%, rgba(181,131,141,1) 0%, rgba(167,131,181,1) 100%);
+  --main-gradient: linear-gradient(
+    45deg,
+    rgba(0,30,36,1) 0%,
+    rgba(181,131,141,1) 0%,
+    rgba(167,131,181,1) 100%
+  );
   --main-background-color: #fbf9f9;
   --stripe-color: var(--main-background-color);
   --photo-border-color: var(--stripe-color);
@@ -100,16 +105,16 @@ h2 {
   background-color: var(--top-social-icon-color);
 }
 .github-logo {
-  -webkit-mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/github.svg) no-repeat center;
-  mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/github.svg) no-repeat center;
+  -webkit-mask: url(img/github.svg) no-repeat center;
+  mask: url(img/github.svg) no-repeat center;
 }
 .linkedin-logo {
-  -webkit-mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/linkedin.svg) no-repeat center;
-  mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/linkedin.svg) no-repeat center;
+  -webkit-mask: url(img/linkedin.svg) no-repeat center;
+  mask: url(img/linkedin.svg) no-repeat center;
 }
 .youtube-logo {
-  -webkit-mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/youtube.svg) no-repeat center;
-  mask: url(https://julzhar.github.io/freecodecamp-portfolio-webpage/img/youtube.svg) no-repeat center;
+  -webkit-mask: url(img/youtube.svg) no-repeat center;
+  mask: url(img/youtube.svg) no-repeat center;
 }
 #projects {
   max-width: 1000px;
