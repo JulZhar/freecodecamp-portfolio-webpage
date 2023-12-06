@@ -1,0 +1,112 @@
+<DOCTYPE! html>
+  <html lang="en">
+  
+    <head>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+      <script>
+        window.addEventListener('scroll', function() {
+          let navbar = document.getElementById('navbar');
+          if (window.scrollY === 0) {
+            navbar.classList.add('scrolled');
+          } else {
+            navbar.classList.remove('scrolled');
+          }
+        });
+      </script>
+    </head>
+
+    <body>
+      <header id="navbar" class="scrolled">
+        <nav>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="welcome-section">
+          <h1>Julia<br> Zharikova</h1>
+          <div class="stripe">
+            <section id="about-me">
+              <img class="photo" src="img/photo.png">
+              <h2>About me</h2>
+              <p>
+                Experienced in HTML5 and CSS3, I specialize in crafting adaptive web designs
+                with a focus on semantic markup.
+              </p>
+              <p>
+                I streamline stylesheets for enhanced maintainability. Well-versed in media queries,
+                I ensure seamless user experiences across diverse devices.
+              </p>
+            </section>
+          </div>
+ 
+          <section id="social">
+            <a href="https://github.com/JulZhar" id="profile-link" target="_blank">
+              <div class="github-logo svg-logo"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/julia-zharikova-work/">
+              <div class="linkedin-logo svg-logo"></div>
+            </a>
+            <a href="https://www.youtube.com/@JulyPar">
+              <div class="youtube-logo svg-logo"></div>
+            </a>
+          </section>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <p class="projects-description">
+            Explore my portfolio — a curated collection of distinct projects, each showcasing the unique
+            blend of creativity and expertise that defines my work.
+          </p>
+          <div class="projects-container">
+            <a href="https://julzhar.github.io/freecodecamp-survey-form/" class="project-tile">
+              <h3 class="project-title">Survey Form</h3>
+              <img src="img/freecodecamp-survey-form.png">
+            </a>
+
+            <a href="https://julzhar.github.io/freecodecamp-tribute-page/" class="project-tile">
+              <h3 class="project-title">Tribute Page</h3>
+              <img src="img/freecodecamp-tribute-page.png">
+            </a>
+
+            <a href="https://julzhar.github.io/freecodecamp-technical-documentation-page/" class="project-tile">
+              <h3 class="project-title">Technical Documentation</h3>
+              <img src="img/freecodecamp-technical-documentation-page.png">
+            </a>
+ 
+            <a href="https://julzhar.github.io/freecodecamp-landing-page/" class="project-tile">
+              <h3 class="project-title">Product Landing Page</h3>
+              <img src="img/freecodecamp-landing-page.png">
+            </a>
+          </div>
+        </section>
+
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <p>
+            <a href="mailto:julizharikovawork@gmail.com">julizharikovawork@gmail.com</a>
+          </p>
+          <a href="https://github.com/JulZhar" id="profile-link" target="_blank">
+            <div class="github-logo svg-logo"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/julia-zharikova-work/">
+            <div class="linkedin-logo svg-logo"></div>
+          </a>
+          <a href="https://www.youtube.com/@JulyPar">
+            <div class="youtube-logo svg-logo"></div>
+          </a>
+        </section>
+      
+      </main>
+
+      <footer>
+        <p>© Juli Zhar, 2023</p>
+      </footer>
+
+    </body>
+  </html>
